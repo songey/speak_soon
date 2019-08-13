@@ -1,0 +1,16 @@
+.input, label{
+    display:block;
+}
+[type="submit"]{
+    background-color:dodgerblue;
+    color:white;
+}
+.left_lang, .right_lang{
+    display:inline-block;
+}
+.right_lang{
+    margin-left:35px;
+}
+.lorem{
+    color:white;
+}

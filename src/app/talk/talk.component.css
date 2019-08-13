@@ -1,0 +1,15 @@
+.image{
+    height:450px;
+    width:300px;
+    margin-left:40px;
+    margin-top:50px;
+    display:inline-block;
+    vertical-align:top;
+}
+.black{
+    display:inline-block;
+    vertical-align:top;
+}
+p{
+    color:white;
+}

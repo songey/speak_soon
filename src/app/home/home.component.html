@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+<button [routerLink]='[""]' class="float-right mt-4 mr-4">Logout</button>
+<button [routerLink]='[""]' class="float-right mt-4 mr-2">Update account</button>
+<div class="container mt-5">
+  <div class="my_info">
+    <h3> Username: {{ users[0].name }}</h3>
+    <img src="./assets/person.jpg" alt="user_photo" id="user_photo">
+    <h5>Country: <img src="./assets/flag.jpg" alt="USA flag" class="flag"> </h5>
+    <h6>I want to learn Spanish <img src="./assets/spain.jpg" alt="Spainish flag" class="flag">  and Chinese <img class="flag" src="./assets/taiwan.jpg" alt="Taiwan's flag"> </h6>
+    <p> <strong>Bio:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium numquam laborum unde at sint aut nam, deleniti autem mollitia assumenda error eum tempora possimus, sed ad voluptate quibusdam pariatur.</p>
+  </div> <!-- ////////////////////////////////////// ////////////////////////// /////////////////////////////////-->
+  <div class="boxes">
+    <h5><a [routerLink]='["contact"]'>Spanish </a> <img src="./assets/spain.jpg" alt="Spainish flag" class="flag"> <meter value="7" min="0" max="10"></meter></h5>
+    <h6>You are connected to:</h6>  <!-- Spanish -->
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"><img src="./assets/argentina.jpg" alt="Argentinaish flag" class="flag"></th>
+            <th scope="col">Juan</th>
+            <th scope="col">Ignacio</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><img src="./assets/spain.jpg" alt="Spainish flag" class="flag"></th>
+            <td>Maite</td>
+            <td>Sanchez</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="./assets/mexico.jpg" alt="Mexico flag" class="flag"></th>
+            <td>Maria</td>
+            <td>Lopez</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="./assets/spain.jpg" alt="Spainish flag" class="flag"></th>
+            <td>Maite</td>
+            <td>Sanchez</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td scope="col"><img src="./assets/argentina.jpg" alt="Argentinaish flag" class="flag"></td>
+            <td scope="col">Juan</td>
+            <td scope="col">Ignacio</td>
+            <td scope="col"></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="./assets/spain.jpg" alt="Spainish flag" class="flag"></th>
+            <td>Maite</td>
+            <td>Sanchez</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="./assets/spain.jpg" alt="Spainish flag" class="flag"></th>
+            <td>Maite</td>
+            <td>Sanchez</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+  </div> <!-- ////////////////////////////////////// ////////////////////////// /////////////////////////////////-->
+  <div class="boxes">
+    <h5> <a [routerLink]='["forum"]'> Chinese </a> <img class="flag" src="./assets/taiwan.jpg" alt="Taiwan's flag"><meter value="2" min="0" max="10"></meter> </h5> <!-- China -->
+    <h6>You are connected to:</h6>
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col"> <img class="flag" src="./assets/taiwan.jpg" alt="Taiwan's flag"> </th>
+          <th scope="col">Matty</th>
+          <th scope="col">Wang</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><img class="flag" src="./assets/singapore.jpg" alt="Singapore's flag"></th>
+          <td>Li</td>
+          <td>Wei</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"><img class="flag" src="./assets/china.jpg" alt="China's flag"></th>
+          <td>Wang</td>
+          <td>Xiu Ying</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <hr>
+    <hr>
+    <p class="lorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dignissimos dolorem obcaecati veniam cumque doloribus rerum provident, tenetur, debitis numquam iure ea voluptate in? Nostrum maiores quo magni ducimus est. </p>
+  </div>
+</div>

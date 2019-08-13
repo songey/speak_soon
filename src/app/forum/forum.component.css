@@ -1,0 +1,30 @@
+button{
+    background-color:dodgerblue;
+    color:white;
+}
+div.right, div.left{
+    min-height:250px;
+    display:inline-block;
+    vertical-align:top;
+    border:1px solid black;
+    margin-left:30px;
+    margin-top:10px;
+}
+p{
+    margin:0 5px;
+}
+.cursive{
+    font-family: cursive;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.comic{
+    font-family: fantasy;
+}
+.impact{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.lorem {
+    color:white;
+}

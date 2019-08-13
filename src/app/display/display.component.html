@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+<div class="container">
+  <div class="left-bar">
+    <form (submit)="logIn()">
+      <div class="form-group mt-2">
+        <input type="text"  aria-describedby="emailHelp" placeholder="Username"> <!-- class="form-control" id="exampleInputPassword1" -->
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Password">  <!-- class="form-control" id="exampleInputPassword1" -->
+      </div>
+      <button type="submit" class="btn btn-primary dodger">Log In</button>
+    </form>
+  </div>
+  <div class="center">
+    <div class="center-top">
+      <h2>Welcome to Speak Soon...</h2>
+      <ul>
+        <li class="none">1<sup>st</sup>  create an account</li>
+        <li class="none">2<sup>nd</sup>  Enter the language: you speak</li>
+        <li class="none">3<sup>rd</sup>  Enter the language: you want to speak</li>
+        <li class="circle" >Now you are connected</li>
+        <li class="circle" >It's that easy..</li>
+      </ul>
+    </div>
+    <div class="center-middle">
+      <img class="picture" src="./assets/hong_kong.jpg" alt="HK">
+    </div>
+  </div>
+  <div class="right-bar ml-2">
+    <form (submit)="registerUser()">
+      <div class="form-group mt-2 register">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group register">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group register">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+      </div>
+      <button type="submit" class="dodger btn btn-primary register float-right">Register</button>
+    </form>
+  </div>
+  <div>
+    <p class="lorem"> Ipsum dignissimos dolorem obcaecati veniam cumque doloribus rerum provident, tenetur, debitis numquam iure ea voluptate in? </p>
+  </div>
+  <div class="footer">
+      <img src="/assets/footer.jpg" alt="">
+  </div>
+</div>

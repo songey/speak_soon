@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+    overflow:scroll;
+}
+#globe {
+    height:45px;
+}
+.main_header {
+    background-color: lightblue;
+}
+.navigation {
+    border-bottom:1px solid black;
+}
+.greeen {
+    height:300px;
+    width:300px;
+}
+.form {
+    margin:2px;
+    width:20%;
+}
+.footer {
+    max-height:8%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    text-align: center;
+    border-top:1px solid black;
+}
+li {
+    display:inline;
+    text-decoration: underline;
+    color:black;
+    font-size:12px;
+}
+span.dash {
+    font-size:12px;
+    color:black;
+}

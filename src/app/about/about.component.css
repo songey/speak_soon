@@ -1,0 +1,44 @@
+.boxes{
+    overflow:scroll;
+}
+#tower, #japan{
+    height:150px;
+}
+.tower, .same{
+    display:inline-block;
+}
+.tower, #same{
+    vertical-align:top;
+}
+#same{
+    margin-left:15px;
+}
+span.underline{
+    text-decoration: underline;
+}
+.black-box, .marron-box{
+    border:2px solid black;
+    padding:8px;
+    border-radius:2px;
+    margin-bottom:2px;
+    width:80%;
+}
+ul.eiffel li, .blank{
+    list-style-type:none;
+}
+.catch, #japan{
+    display: inline-block;
+    vertical-align: top;
+}
+#japan{
+    margin-left:15px;
+}
+#catch{
+    text-decoration: underline;
+}
+#vvv{
+    color:white;
+}
+#via{
+    font-style:italic;
+}

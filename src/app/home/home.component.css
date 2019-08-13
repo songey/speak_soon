@@ -1,0 +1,27 @@
+#my_info{
+    width:250px;
+}
+#user_photo{
+    height:45px;
+}
+.flag{
+    height:20px;
+}
+button{
+    background-color:dodgerblue;
+    color:white;
+}
+.boxes{
+    display:inline-block;
+    vertical-align:top;
+    margin-top:5px;
+    margin-left:40px;
+    border:1.5px solid black;
+    padding:2px;
+}
+meter{
+    margin-left:7px;
+}
+.lorem {
+    color:white;
+}
